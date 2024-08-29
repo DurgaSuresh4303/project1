@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textile Company - Products</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cc8e8e;
+            color: #333;
+        }
+
+        nav ul {
+            background-color: #333;
+            padding: 20px;
+            list-style: none;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #products h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-item {
+            background-color: rgb(240, 204, 204);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 15px;
+            width: 150px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product-item img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+            border-radius: 50%;
+            height: 150px; /* Added height for consistent size */
+            object-fit: cover; /* Ensures image fits properly in the circle */
+        }
+
+        .product-item h3 {
+            margin: 10px 0;
+        }
+
+        .product-item p {
+            margin: 10px 15px;
+        }
+
+        .price {
+            font-size: 1.2em;
+            color: #f4a261;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #f4a261;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e76f51;
+        }
+
+        .product-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="task1home.html">Home</a></li>
+            <li><a href="task1product.html">Products</a></li>
+            <li><a href="task1contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="products">
+        <div class="container">
+            <h1>Our Products</h1>
+            <div class="product-grid">
+                
+                <div class="product-item">
+                    <img src="task1silksaree.png" alt="Product 1">
+                    <h3>Silk Fabric</h3>
+                    <p>Luxurious silk fabric perfect for evening wear.</p>
+                    <p class="price">8,300 Rs</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                
+                <div class="product-item">
+                    <img src="task1cottonsaree.png" alt="Product 2">
+                    <h3>Cotton Fabric</h3>
+                    <p>High-quality cotton fabric ideal for everyday clothing.</p>
+                    <p class="price">1,900 Rs</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                
+                <div class="product-item">
+                    <img src="task1linenshirt.png" alt="Product 3">
+                    <h3>Linen shirt</h3>
+                    <p>Breathable linen fabric, perfect for summer wear.</p>
+                    <p class="price">1,200 Rs</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                
+                <div class="product-item">
+                    <img src="task1cargopant.png" alt="Product 4">
+                    <h3>cargo pants</h3>
+                    <p>cargo pants for ideal and casual settings.</p>
+                    <p class="price">800 Rs</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                
+                <div class="product-item">
+                    <img src="task1kidsboy.png" alt="Product 5">
+                    <h3>Hoodie</h3>
+                    <p>this trendy and colorful hoodie sweatshirt and pants set is the perfect addition to your little champ's autumn wardrobe..</p>
+                    <p class="price">900 Rs</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                
+                <div class="product-item">
+                    <img src="task1frock.png" alt="Product 6">
+                    <h3>frock</h3>
+                    <p>The dress with Puff Sleeve floral Print gives pretty looks and also good in party wear as well as other functions. S.</p>
+                    <p class="price">500 Rs</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PONNY TEXTILE. All rights reserved.</p>
+    </footer>
+</body>
+</html>

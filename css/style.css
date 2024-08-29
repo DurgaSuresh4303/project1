@@ -1,0 +1,23 @@
+
+h1{
+    color: blue; 
+ }
+ .navbar{
+     list-style-type: none;
+     display: flex;
+     gap: 30px;
+     
+ }
+ .active{
+     background-color: aqua;
+ }
+ footer{
+    text-align: center;
+ }
+ 
+ 
+ @media only screen and (max-width:600px) {
+    body{
+        background-color: blue;
+    }
+}

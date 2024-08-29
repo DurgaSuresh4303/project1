@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textile Company - Home</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0db60;
+    color: #a8c3d1;
+}
+
+nav ul {
+    background-color: #110505;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(245, 235, 235);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(34, 78, 190);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #290eb3;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about {
+    padding: 50px 20px;
+    background-color: #65818d;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+#featured-products {
+    padding: 50px 20px;
+    background-color: #e13737;
+}
+
+#featured-products h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #ab9393;
+    color: rgb(159, 221, 187);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="task1home.html">Home</a></li>
+            <li><a href="task1register.html">register</a></li>
+            <li><a href="task1login.html">login</a></li>
+            <li><a href="task1product.html">Products</a></li>
+            <li><a href="task1contact.html">Contact</a></li>
+ </ul>
+    </nav>
+
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>PONNY TEXTILE</h1>
+            <p>Your one-stop solution for high-quality clothes</p>
+            <a href="task1register.html" class="btn">Explore Our Products</a>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p> we specialize in producing high-quality clothes that meet the needs of our diverse clien. Our commitment to excellence is reflected in every piece of fabric we produce. With years of experience in the textile industry, we pride ourselves on delivering products that are not only aesthetically pleasing but also durable and reliable.</p>
+        </div>
+    </section>
+
+    
+    <section id="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="MEN.png" alt="Product 1" style="border-radius: 50%;">
+                    <h3>Mens Wear</h3>
+                    <p>Men's wear encompasses a wide range of clothing designed specifically for men, catering to various occasions, styles, and preferences.</p>
+                </div>
+                <div class="product-item">
+                    <img src="women.png" alt="Product 2" style="border-radius: 50%;">
+                    <h3>Womens Wear</h3>
+                    <p>Women's wear is a diverse and vibrant category in the fashion world, offering a wide range of clothing options that cater to various occasions, styles, and personal preferences.</p>
+                </div>
+                <div class="product-item">
+                    <img src="kids.png" alt="Product 3" style="border-radius: 50%;">
+                    <h3>Kids Wear</h3>
+                    <p>Kids' wear is a vibrant and playful category of clothing that combines comfort, durability, and style to meet the needs of growing children.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 PONNY TEXTILE All rights reserved.</p>
+    </footer>
+</body>
+</html>
